@@ -97,11 +97,15 @@
         <AppenderRef ref="SpringRollingFile"/>
         <AppenderRef ref="Console"/>
     </Logger>
-  	<Logger name="com.yuansong" level="debug" additivity="false">
+  	<Logger name="com.zillion" level="debug" additivity="false">
   		<AppenderRef ref="Console"/>
   		<AppenderRef ref="MyRollingFile"/>
   	</Logger>
   	<Logger name="com.yuansong.tools" level="debug" additivity="false">
+        <AppenderRef ref="Console"/>
+        <AppenderRef ref="MyRollingFile"/>
+    </Logger>
+    <Logger name="com.yuansong" level="debug" additivity="false">
         <AppenderRef ref="Console"/>
         <AppenderRef ref="MyRollingFile"/>
     </Logger>

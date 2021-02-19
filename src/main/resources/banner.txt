@@ -1,0 +1,7 @@
+  _ __ _____      ___ __ ___  
+ | '_ ` _ \ \ /\ / / '_ ` _ \ 
+ | | | | | \ V  V /| | | | | |
+ |_| |_| |_|\_/\_/ |_| |_| |_|
+                                  
+:: Application :: ${application.version}${application.formatted-version}
+:: Spring Boot :: ${spring-boot.version}${spring-boot.formatted-version}

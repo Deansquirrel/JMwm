@@ -1,14 +1,15 @@
-package com.yuansong.boot.mwm.controller.vo;
+package com.yuansong.mwm.controller.vo;
 
-public class BaseMessage<T> {
-	private String code;
+public class BaseResp<T> {
+	
+	private Long code;
 	private String message;
 	private T data;
 	
-	public String getCode() {
+	public Long getCode() {
 		return code;
 	}
-	public void setCode(String code) {
+	public void setCode(Long code) {
 		this.code = code;
 	}
 	public String getMessage() {
@@ -23,5 +24,4 @@ public class BaseMessage<T> {
 	public void setData(T data) {
 		this.data = data;
 	}
-	
 }

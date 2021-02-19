@@ -1,5 +1,0 @@
-{"properties": [{
-  "name": "proj",
-  "type": "com.yuansong.boot.mwm.config.ProjConfig",
-  "description": "A description for 'proj'"
-}]}

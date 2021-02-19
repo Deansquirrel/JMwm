@@ -1,0 +1,8 @@
+z5:
+  md:
+    config:
+      server: "192.168.5.1"
+      db-port: 2005
+      db-name: "517KF_好利来001门店（烘焙）"
+      username: "sa"
+      password: ""
